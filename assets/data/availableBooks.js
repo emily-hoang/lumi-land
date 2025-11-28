@@ -1,7 +1,7 @@
 const availableBooks = [
   {
     title: "Sparkle & The Rainbow Promise",
-    price: "5'",
+    duration: "5'",
     features: [
       "Meaningful lessons",
       "Full-color illustrations",
@@ -12,7 +12,7 @@ const availableBooks = [
   },
   {
     title: "The Little Cloud That Could",
-    price: "5'",
+    duration: "5'",
     features: [
       "Perseverance",
       "Full-color illustrations",
@@ -23,7 +23,7 @@ const availableBooks = [
   },
   {
     title: "The Bunny Who Lost His Hugs",
-    price: "5'",
+    duration: "5'",
     features: [
       "Empathy & Kindness",
       "Full-color illustrations",
@@ -34,7 +34,7 @@ const availableBooks = [
   },
   {
     title: "Tilly's Garden Of Growing Things",
-    price: "5'",
+    duration: "5'",
     features: [
       "Patience & Growth",
       "Full-color illustrations",
@@ -45,13 +45,24 @@ const availableBooks = [
   },
   {
     title: "Max and The Magic Mirror",
-    price: "5'",
+    duration: "5'",
     features: [
       "Self-Acceptance",
       "Full-color illustrations",
       "12 pages"
     ],
     link: "#max-and-the-magic-mirror-book-details",
+    linkText: "Overview"
+  },
+  {
+    title: "Luna and The Floating Idea",
+    duration: "5'",
+    features: [
+      "Self-Belief",
+      "Full-color illustrations",
+      "12 pages"
+    ],
+    link: "#luna-and-the-floating-idea-book-details",
     linkText: "Overview"
   }
 ];

@@ -92,5 +92,22 @@
         "🤝🌟Sharing the Magic: Embracing self-acceptance, Max helps his friends see their own strengths, teaching them that their unique qualities are something to celebrate.",
       ],
       cta: "#max-and-the-magic-mirror-book-details"
+    },
+    {
+      id: "luna-and-the-floating-idea",
+      title: "Luna and The Floating Idea",
+      cover: "assets/img/book/luna-and-the-floating-idea/luna-and-the-floating-idea-cover.png",
+      pages: 12,
+      published: "28/11/2025",
+      category: ["Patience & Growth", "Picture Book"],
+      description: [
+        "In a cozy, colorful playground, Luna's friends face a problem when their favorite ball falls into a deep hole. Everyone tries different ideas, but nothing works.",
+        "Quietly observing, shy Luna remembers a physics lesson and bravely suggests pouring water into the hole to float the ball up. Her friends follow her idea, and the ball is rescued. Luna learns that courage doesn't mean being loud—it means speaking up when it matters, and her friends realize her voice is important too."      ],
+      highlights: [
+        "🏀 A Big Problem: Luna's friends' favorite ball falls into a deep hole, and everyone tries to solve it—but nothing works.",
+        "🤔 Thinking Carefully: Shy Luna quietly notices a solution that no one else sees and remembers a lesson from class about physics.",
+        "💧 Speaking Up Bravely: Luna gathers courage and suggests pouring water into the hole to float the ball up.",
+        "🎉 Success & Courage: The ball is rescued, Luna's idea works, and everyone learns that courage means speaking up when it matters."],
+      cta: "#luna-and-the-floating-idea-book-details"
     }
   ];

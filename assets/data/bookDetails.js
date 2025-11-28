@@ -38,5 +38,13 @@ const bookDetails = [
     chapterTitle: "Meet Max!",
     images: Array.from({length: 12}, (_, i) => `assets/img/book/max-and-the-magic-mirror/max-page-${i+1}.png`),
     altPrefix: "Max and The Magic Mirror",
+  },
+  {
+    id: "luna-and-the-floating-idea-book-details",
+    title: "Luna and The Floating Idea",
+    pageNumber: "01",
+    chapterTitle: "Meet Luna!",
+    images: Array.from({length: 12}, (_, i) => `assets/img/book/luna-and-the-floating-idea/luna-page-${i+1}.png`),
+    altPrefix: "Luna and The Floating Idea",
   }
 ];

@@ -6,7 +6,7 @@ function renderAvailableBookCard(book, index) {
           <i class="bi bi-book"></i>
         </div>
         <h3>${book.title}</h3>
-        <div class="format-price">${book.price}</div>
+        <div class="format-price">${book.duration}</div>
         <ul class="format-features">
           ${book.features.map(f => `<li><i class="bi bi-check-circle"></i> ${f}</li>`).join('')}
         </ul>
