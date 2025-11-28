@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Story Time</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: BookLanding
+  * Template URL: https://bootstrapmade.com/bootstrap-book-landing-page-template/
+  * Updated: Mar 02 2025 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+
+        <!-- Uncomment the line below if you also wish to use a text logo -->
+        <!-- <h1 class="sitename">BookLanding</h1>< -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#available-books">Available Books</a></li>
+          <li><a href="#related-books">Up Coming Books</a></li>
+          <li><a href="#about-the-author">About the Author</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Home Section -->
+    <section id="hero" class="hero section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-5">
+            <div class="book-hero-content" data-aos="fade-up" data-aos-delay="200">
+              <span class="book-genre">Free Children Books</span>
+              <h1>Lumi Land</h1>
+              <p class="book-subtitle">Free Storybooks for Kids Ages 1-10, Full of Wonder, Fun, and Life Lessons</p>
+              <div class="author">
+                <span>By</span>
+                <h3>Emily Hoang</h3>
+              </div>
+              <p class="book-description">
+                Hi there! I'm a proud parent of two wonderful children. I know how important it is to share beautiful, imaginative stories with little ones every day before bedtime. These moments spark their imagination, inspire curiosity, and plant the seeds for meaningful conversations and simple life lessons from an early age. My goal is to create stories that make every child's bedtime magical, cozy, and full of joy — helping them grow up with a childhood they will always treasure.
+              </p>
+              <!-- <div class="hero-cta">
+                <a href="#available-books" class="btn-primary">Get Your Copy</a>
+                <a href="#book-details" class="btn-outline">Read Preview</a>
+              </div> -->
+            </div>
+          </div>
+          <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end" data-aos="zoom-out" data-aos-delay="300">
+            <div class="book-cover">
+              <img src="assets/img/book/free-children-books.png" alt="Book Cover" class="img-fluid">
+              <div class="book-shadow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Home Section -->
+
+    <!-- Available Books Section -->
+     <section id="available-books" class="available-books section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Available Books</h2>
+        <p>List of available books for reading</p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div id="available-books-list" class="row g-4"></div>
+      </div>
+    </section>
+    <!-- /Available Books Section -->
+
+    <!-- Book Overviews Section -->
+    <section id="book-overviews" class="book-overviews section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Book Overviews</h2>
+        <p>Quick summaries of each book</p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div id="books-overviews"></div>
+      </div>
+    </section>
+    <!-- /Book Overviews Section -->
+
+    <!-- Book Details Section -->
+    <section id="book-details" class="book-details section light-background">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div id="book-details-section"></div>
+      </div>
+    </section>
+    <!-- /Book Details Section -->
+
+    <!-- About the  Author Section -->
+    <section id="about-the-author" class="about-the-author section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+            <div class="author-image">
+              <img src="assets/img/person/emily-hoang.png" alt="Author Name" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+            <div class="author-info">
+              <h2>About the Author</h2>
+              <h3>Emily Hoang</h3>
+              <div class="author-credentials">Magical bedtime stories with gentle lessons for growing hearts</div>
+
+              <div class="author-bio">
+                <p>
+                  Emily is a software engineer and proud mother of two wonderful children. She deeply understands the importance of nurturing young minds with stories that are both magical and meaningful, teaching simple yet valuable life lessons from early childhood.                </p>
+                <p>
+                  Inspired by her own experiences as a parent, she created this website to share the children's books she has crafted using her imagination, along with the help of innovative AI tools.                </p>
+                <p>
+                  Each book offers a gentle, enchanting story designed to captivate little ones at bedtime while planting the seeds for a joyful and thoughtful life.                </p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About the Author Section -->
+
+    <!-- Related Books Section -->
+    <section id="related-books" class="related-books section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>More Books by the Author</h2>
+        <p>More Magical Stories Await!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row mt-3">
+          <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="400">
+            <div class="coming-soon">
+              <div class="coming-soon-badge">Coming Soon</div>
+              <div class="row align-items-center">
+                <div class="col-md-4">
+                  <div class="upcoming-book-image">
+                    <img src="assets/img/book/lumi-story-land-logo.png" alt="Upcoming Book" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="upcoming-book-info">
+                    <h3>Charlie and the Compliment Train</h3>
+                    <p class="release-date">Expected Release: 25th December 2025</p>
+                    <p class="description">Charlie starts giving compliments to friends and strangers, discovering that kind words create a ripple of happiness.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Related Books Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <h3 class="sitename">Free Online Children Books</h3>
+      <p>Sharing heartfelt stories to help little ones grow with kindness and courage</p>
+      <!-- <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div> -->
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Lumi Land</strong> <span>All Rights Reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Book Overviews Files-->
+  <script src="assets/data/availableBooks.js"></script>
+  <script src="assets/data/bookOverviews.js"></script>
+  <script src="assets/data/bookDetails.js"></script>
+  <script src="assets/js/renderBookOverview.js"></script>
+  <script src="assets/js/renderAvailableBooks.js"></script>
+  <script src="assets/js/renderBookDetails.js"></script>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('available-books-list').innerHTML = availableBooks.map(renderAvailableBookCard).join('');
+
+    // Render book overviews with divider between each
+    const overviewHtml = books.map((book, idx) => {
+      let html = renderBookOverview(book);
+      if (idx < books.length - 1) {
+        html += '<div class="overview-divider"></div>';
+      }
+      return html;
+    }).join('');
+    document.getElementById('books-overviews').innerHTML = overviewHtml;
+
+    const bookDetailsHtml = bookDetails.map((book, idx) => {
+      let html = renderBookDetails(book);
+      if (idx < bookDetails.length - 1) {
+        html += '<div class="book-details-divider"></div>';
+      }
+      return html;
+    }).join('');
+    document.getElementById('book-details-section').innerHTML = bookDetailsHtml;
+  });
+  </script>
+</body>
+
+</html>

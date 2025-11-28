@@ -1,0 +1,24 @@
+{
+  "name": "lumi-land",
+  "version": "1.0.0",
+  "description": "Free Online Children Books by Emily Hoang",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emily-hoang/lumi-land.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emily-hoang/lumi-land/issues"
+  },
+  "homepage": "https://github.com/emily-hoang/lumi-land#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
