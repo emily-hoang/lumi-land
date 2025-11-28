@@ -74,4 +74,23 @@
         "🍑 Patience Rewarded - Years later, Tilly's patience and love blossom into a beautiful peach tree, teaching her that the most beautiful things take time and consistent care."      ],
       cta: "#tilly-garden-of-growing-things-book-details"
     },
+    {
+      id: "max-and-the-magic-mirror",
+      title: "Max and The Magic Mirror",
+      cover: "assets/img/book/max-and-the-magic-mirror/max-and-the-magic-mirror-cover.png",
+      pages: 12,
+      published: "28/11/2025",
+      category: ["Patience & Growth", "Picture Book"],
+      description: [
+        "Max, a curious boy who discovers a magical mirror in his attic. The mirror initially shows him only the wonderful qualities others see in him (brave, kind, creative), but then starts showing his clumsy moments and doubts, confusing him.",
+        "Max is transported into the mirror's world to face challenges testing his courage, kindness, and creativity, learning that these qualities involve effort, mistakes, and perseverance—not perfection. Upon returning, Max realizes that self-acceptance is the true magic. He then helps his friends, who are struggling with their own insecurities, recognize their unique value, proving that the magic of self-acceptance extends to helping others see their own light."
+      ],
+      highlights: [
+        "🪞✨A Magical Discovery: Max uncovers a mysterious mirror that shows how others truly see him—kind, brave, and full of potential—sparking curiosity and newfound confidence.",
+        "💭💛Facing Imperfections: When the mirror reveals his mistakes and doubts, Max learns that chasing perfection only brings frustration and that flaws are part of being human.",
+        "🌈🧗🎨The Three Magical Challenges: Through tests of Bravery, Kindness, and Creativity, Max discovers that real magic comes from trying, learning from mistakes, and never giving up.",
+        "🤝🌟Sharing the Magic: Embracing self-acceptance, Max helps his friends see their own strengths, teaching them that their unique qualities are something to celebrate.",
+      ],
+      cta: "#max-and-the-magic-mirror-book-details"
+    }
   ];

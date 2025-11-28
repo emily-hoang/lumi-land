@@ -44,14 +44,14 @@ const availableBooks = [
     linkText: "Overview"
   },
   {
-    title: "Sparkle & The Rainbow Promise",
+    title: "Max and The Magic Mirror",
     price: "5'",
     features: [
-      "Meaningful lessons",
+      "Self-Acceptance",
       "Full-color illustrations",
       "12 pages"
     ],
-    link: "#",
-    linkText: "Read Now"
+    link: "#max-and-the-magic-mirror-book-details",
+    linkText: "Overview"
   }
 ];

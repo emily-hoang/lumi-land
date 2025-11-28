@@ -30,5 +30,13 @@ const bookDetails = [
     chapterTitle: "Meet Tilly!",
     images: Array.from({length: 10}, (_, i) => `assets/img/book/tilly-garden-of-growing-things/tilly-page-${i+1}.png`),
     altPrefix: "Tilly's Garden Of Growing Things",
+  },
+  {
+    id: "max-and-the-magic-mirror-book-details",
+    title: "Max and The Magic Mirror",
+    pageNumber: "01",
+    chapterTitle: "Meet Max!",
+    images: Array.from({length: 12}, (_, i) => `assets/img/book/max-and-the-magic-mirror/max-page-${i+1}.png`),
+    altPrefix: "Max and The Magic Mirror",
   }
 ];
