@@ -134,7 +134,7 @@
     <!-- /Book Details Section -->
 
     <!-- About the  Author Section -->
-    <section id="about-the-author" class="about-the-author section light-background">
+    <section id="about-the-author" class="about-the-author section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row align-items-center gy-5">
@@ -245,10 +245,27 @@
   <script>
   document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('available-books-list').innerHTML = availableBooks.map(renderAvailableBookCard).join('');
-    document.getElementById('books-overviews').innerHTML = books.map(renderBookOverview).join('');
-    document.getElementById('book-details-section').innerHTML = bookDetails.map(renderBookDetails).join('');
+
+    // Render book overviews with divider between each
+    const overviewHtml = books.map((book, idx) => {
+      let html = renderBookOverview(book);
+      if (idx < books.length - 1) {
+        html += '<div class="overview-divider"></div>';
+      }
+      return html;
+    }).join('');
+    document.getElementById('books-overviews').innerHTML = overviewHtml;
+
+    const bookDetailsHtml = bookDetails.map((book, idx) => {
+      let html = renderBookDetails(book);
+      if (idx < bookDetails.length - 1) {
+        html += '<div class="book-details-divider"></div>';
+      }
+      return html;
+    }).join('');
+    document.getElementById('book-details-section').innerHTML = bookDetailsHtml;
   });
-</script>
+  </script>
 </body>
 
 </html>
