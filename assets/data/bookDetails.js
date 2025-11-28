@@ -17,10 +17,18 @@ const bookDetails = [
   },
   {
     id: "bunny-lost-hug-book-details",
-    title: "Bunny's Lost Hug",
+    title: "The Bunny Who Lost His Hugs",
     pageNumber: "01",
     chapterTitle: "Meet Boonie!",
     images: Array.from({length: 10}, (_, i) => `assets/img/book/bunny-lost-hug/bunny-page-${i+1}.png`),
-    altPrefix: "Bunny's Lost Hug",
+    altPrefix: "The Bunny Who Lost His Hugs",
+  },
+  {
+    id: "tilly-garden-of-growing-things-book-details",
+    title: "Tilly's Garden Of Growing Things",
+    pageNumber: "01",
+    chapterTitle: "Meet Tilly!",
+    images: Array.from({length: 10}, (_, i) => `assets/img/book/tilly-garden-of-growing-things/tilly-page-${i+1}.png`),
+    altPrefix: "Tilly's Garden Of Growing Things",
   }
 ];

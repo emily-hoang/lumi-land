@@ -5,7 +5,6 @@ const availableBooks = [
     features: [
       "Meaningful lessons",
       "Full-color illustrations",
-      "Simple story",
       "12 pages"
     ],
     link: "#sparkle-and-the-rainbow-promise-overview",
@@ -17,22 +16,31 @@ const availableBooks = [
     features: [
       "Perseverance",
       "Full-color illustrations",
-      "Simple story",
       "10 pages"
     ],
     link: "#the-little-cloud-that-could-overview",
     linkText: "Overview"
   },
   {
-    title: "Bunny's Lost Hug",
+    title: "The Bunny Who Lost His Hugs",
     price: "5'",
     features: [
-      "Meaningful lessons",
+      "Empathy & Kindness",
       "Full-color illustrations",
-      "Simple story",
       "12 pages"
     ],
     link: "#bunny-lost-hug-book-details",
+    linkText: "Overview"
+  },
+  {
+    title: "Tilly's Garden Of Growing Things",
+    price: "5'",
+    features: [
+      "Patience & Growth",
+      "Full-color illustrations",
+      "10 pages"
+    ],
+    link: "#tilly-garden-of-growing-things-book-details",
     linkText: "Overview"
   },
   {
@@ -41,19 +49,6 @@ const availableBooks = [
     features: [
       "Meaningful lessons",
       "Full-color illustrations",
-      "Simple story",
-      "12 pages"
-    ],
-    link: "#",
-    linkText: "Read Now"
-  },
-  {
-    title: "Sparkle & The Rainbow Promise",
-    price: "5'",
-    features: [
-      "Meaningful lessons",
-      "Full-color illustrations",
-      "Simple story",
       "12 pages"
     ],
     link: "#",
